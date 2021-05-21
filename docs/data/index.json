@@ -1,20 +1,23 @@
+E/15/299, L.M. Ranushka , e15299@eng.pdn.ac.lk
+E/15/139, D.S. Ishanthi, e15139@eng.pdn.ac.lk
+E/15/249, W.A.D. Pamoda, e15249@eng.pdn.ac.lk
 {
-    "title": "An automated system for monitoring and controlling the water supply to a large farmland",
+    "title": "Hydroponics Automation System",
     "team": [
         {
-            "name": "M.M.M. Irfan",
-            "email": "e15138@eng.pdn.ac.lk",
-            "eNumber": "E/15/138"
+            "name": "L.M. Ranushka ",
+            "email": "e15299@eng.pdn.ac.lk",
+            "eNumber": "E/15/299"
         },
         {
-            "name": "H.K. Madhushani",
-            "email": "e15209@eng.pdn.ac.lk",
-            "eNumber": "E/15/209"
+            "name": "D.S. Ishanthi",
+            "email": "e15139@eng.pdn.ac.lk",
+            "eNumber": "E/15/139"
         },
         {
-            "name": "L. Rishikeshan",
-            "email": "e15307@eng.pdn.ac.lk",
-            "eNumber": "E/15/307"
+            "name": "W.A.D. Pamoda",
+            "email": "e15249@eng.pdn.ac.lk",
+            "eNumber": "E/15/249"
         }
     ],
     "supervisors": [
