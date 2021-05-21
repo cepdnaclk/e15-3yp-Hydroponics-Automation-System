@@ -1,57 +1,65 @@
-___
-# DELETE THIS INSTRUCTIONS AND ADD AN INTRODUCTION ABOUT YOUR PROJECT
-___
+---
+layout: home
+permalink: index.html
+repository-name: e15-3yp-Hydroponics-Automation-System
+title: Hydroponics Automation System
+---
+# Project Title
 
-# eYY-3yp-project-template
+---
+L.M. Ranushka	E/15/299
+D.S. Ishanthi	E/15/139
+W.A.D. Pamoda	E/15/249
 
-This is a sample repository you can use for your Embedded Systems project. Once you followed these instructions, remove the text and add a brief introduction to here.
+## Team
+-  E/15/299, L.M. Ranushka	, [e15299@eng.pdn.ac.lk](mailto:e15299@eng.pdn.ac.lk)
+-  E/15/139, D.S. Ishanthi, [e15139@eng.pdn.ac.lk](mailto:e15139@eng.pdn.ac.lk)
+-  E/15/249, W.A.D. Pamoda, [e15249@eng.pdn.ac.lk](mailto:e15249@eng.pdn.ac.lk)
 
-### Enable GitHub Pages
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Solution Architecture](#solution-architecture )
+3. [Hardware & Software Designs](#hardware-and-software-designs)
+4. [Testing](#testing)
+5. [Conclusion](#conclusion)
+6. [Links](#links)
 
-You can put the things to be shown in GitHub pages into the _docs/_ folder. Both html and md file formats are supported. You need to go to settings and enable GitHub pages and select _main_ branch and _docs_ folder from the dropdowns, as shown in the below image.
+---
 
-![image](https://user-images.githubusercontent.com/11540782/98789936-028d3600-2429-11eb-84be-aaba665fdc75.png)
+## Introduction
 
-### Special Configurations
+Hydroponics is the method of growing plants in a nutrient-rich water-based environment which uses artificial lighting. This method is widely used in modern agriculture because of less space and conservation of water. But the main disadvantage of this system is the need of constant monitoring to get the maximum benefits from it.
 
-These projects will be automatically added into [https://projects.ce.pdn.ac.lk](). If you like to show more details about your project on this site, you can fill the parameters in the file, _/docs/index.json_
+ With this Hydroponics Automation System, the plants are supplied automatically with enough water, proper amount of light intensity and proper nutrients depending on the sensors’ feedback. And also the data obtained from the sensors is accessible through a web application.
+ ![image](https://user-images.githubusercontent.com/73756777/119202666-e7be0d00-baae-11eb-919a-6264dddfcfe2.png)
 
-```
-{
-  "title": "This is the title of the project",
-  "team": [
-    {
-      "name": "Team Member Name 1",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    },
-    {
-      "name": "Team Member Name 2",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    },
-    {
-      "name": "Team Member Name 3",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    }
-  ],
-  "supervisors": [
-    {
-      "name": "Dr. Supervisor 1",
-      "email": "email@eng.pdn.ac.lk"
-    },
-    {
-      "name": "Supervisor 2",
-      "email": "email@eng.pdn.ac.lk"
-    }
-  ],
-  "tags": ["Web", "Embedded Systems"]
-}
-```
 
-Once you filled this _index.json_ file, please verify the syntax is correct. (You can use [this](https://jsonlint.com/) tool).
 
-### Page Theme
+## Solution Architecture
 
-A custom theme integrated with this GitHub Page, which is based on [github.com/cepdnaclk/eYY-project-theme](https://github.com/cepdnaclk/eYY-project-theme). If you like to remove this default theme, you can remove the file, _docs/\_config.yml_ and use HTML based website.
+![image](https://user-images.githubusercontent.com/73756777/119202729-0b815300-baaf-11eb-83a3-2bd9fb39d7ef.png)
+
+## Hardware and Software Designs
+### The modified final data flow  of the system
+![image](https://user-images.githubusercontent.com/73756777/119202906-6c109000-baaf-11eb-9120-85f394b8879d.png)
+
+
+## Testing
+
+The data gathered from the sensors are sent to the NodeMCU and sent to a web server and stored in a database. User can access this data through a web application. The automatic control of the actuators is done by the webserver and the Node MCU. Also if the user wants to take the control decisions, he can control the system through the web application.
+
+
+
+## Conclusion
+
+For the demonstration purpose for now we have implemented the structure of the hydroponics system with water circulation. We are going to further improve and develop it.
+
+### Links  
+- <a href = "https://github.com/cepdnaclk/e15-3yp-Hydroponics-Automation-System" target = "_blank"> Project Repository </a>
+- <a href = "https://cepdnaclk.github.io/e15-3yp-Hydroponics-Automation-System/" target = "_blank">Project Page</a>
+- <a href = "http://www.ce.pdn.ac.lk/" target = "_blank">Department of Computer Engineering</a>
+- <a href = "https://eng.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
+
+
+[//]: # (Please refer this to learn more about Markdown syntax)
+[//]: # (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
