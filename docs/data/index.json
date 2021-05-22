@@ -1,7 +1,6 @@
-E/15/299, L.M. Ranushka , e15299@eng.pdn.ac.lk
-E/15/139, D.S. Ishanthi, e15139@eng.pdn.ac.lk
-E/15/249, W.A.D. Pamoda, e15249@eng.pdn.ac.lk
+
 {
+    visibility : True,
     "title": "Hydroponics Automation System",
     "team": [
         {
