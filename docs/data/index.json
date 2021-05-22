@@ -1,6 +1,6 @@
 
 {
-    visibility : True,
+    "visibility": true,
     "title": "Hydroponics Automation System",
     "team": [
         {
