@@ -4,12 +4,9 @@ permalink: index.html
 repository-name: e15-3yp-Hydroponics-Automation-System
 title: Hydroponics Automation System
 ---
-# Project Title
+# Hydroponics Automation System
 
 ---
-L.M. Ranushka	E/15/299
-D.S. Ishanthi	E/15/139
-W.A.D. Pamoda	E/15/249
 
 ## Team
 -  E/15/299, L.M. Ranushka	, [e15299@eng.pdn.ac.lk](mailto:e15299@eng.pdn.ac.lk)
