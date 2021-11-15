@@ -9,8 +9,8 @@ title: Hydroponics Automation System
 
 ## Team
 -  E/15/299, L.M. Ranushka	, [e15299@eng.pdn.ac.lk](mailto:e15299@eng.pdn.ac.lk)
--  E/15/139, D.S. Ishanthi, [e15139@eng.pdn.ac.lk](mailto:e15139@eng.pdn.ac.lk)
--  E/15/249, W.A.D. Pamoda, [e15249@eng.pdn.ac.lk](mailto:e15249@eng.pdn.ac.lk)
+-  E/15/139, D.S. Ishanthi, [dsajini.i@gmail.com](mailto:dsajini.i@gmail.com)
+-  E/15/249, W.A.D. Pamoda, [dasunip2@gmail.com](mailto:dasunip2@gmail.com)
 
 ## Table of Contents
 1. [Introduction](#introduction)
